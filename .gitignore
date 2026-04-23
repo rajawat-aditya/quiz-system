@@ -1,5 +1,5 @@
 /node_modules
-/vendor
+# vendor is intentionally committed for Vercel serverless deployment
 .env
 .env.local
 .env.backup
@@ -13,3 +13,6 @@ npm-debug.log
 yarn-error.log
 .idea/  
 /.vscode
+
+.vercel
+vendor/

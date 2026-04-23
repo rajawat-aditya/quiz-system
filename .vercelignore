@@ -1,0 +1,13 @@
+/node_modules
+
+*.log
+.DS_Store
+*.tmp
+/public/uploads
+/storage/*.key
+npm-debug.log
+yarn-error.log
+.idea/
+/.vscode
+
+.vercel
